@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div  class="container">
+        <div class="nav-bar">
+            <ul>
+                <li><a href="atividade-2.html"><button id="nav-bar-buttons">Atividade 2</button></a></li>
+                <li><a href="atividade-3.html"><button id="nav-bar-buttons">Atividade 3</button></a></li>
+                <li><a href="atividade-4.html"><button id="nav-bar-buttons">Atividade 4</button></a></li>
+                <li><a href="atividade-5.html"><button id="nav-bar-buttons">Atividade 5</button></a></li>
+            </ul>
+        </div>
+        <p>4) Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:</p>
+        <ol> 
+            <li><pre>SP     – R$ <input id="item-SP" type="number" value="67836.43"><span id="itemSP"></span></pre></li>
+            <li><pre>RJ     – R$ <input id="item-RJ" type="number" value="36678.66"><span id="itemRJ"></span></pre></li>
+            <li><pre>MG     – R$ <input id="item-MG" type="number" value="29229.88"><span id="itemMG"></span></pre></li>
+            <li><pre>ES     – R$ <input id="item-ES" type="number" value="27165.48"><span id="itemES"></span></pre></li>
+            <li><pre>Outros – R$ <input id="item-Outros" type="number" value="19849.53"><span id="itemOutros"></span></pre></li>
+        </ol>
+    
+        <p>Escreva um programa na linguagem que desejar onde calcule o percentual de representação que 
+            cada estado teve dentro do valor total mensal da distribuidora.
+        </p>
+
+        <div class="chartBox">
+            <canvas id="myChart" width="250" height="250"></canvas>
+        </div>
+
+    </div>
+    
+    <script src="js/atividade-4.js"></script>
+</body>
+</html>

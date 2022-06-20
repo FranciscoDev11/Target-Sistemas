@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato:ital@0;1&family=Roboto+Mono:wght@300;400&family=Roboto+Slab&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+}
+
+a{
+    width: fit-content;
+    color: black;
+    text-decoration: none;
+}
+
+pre{
+    margin: 0;
+}
+
+.chartBox{
+    width: 340px;
+    height: 340px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 750px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+#nav-bar-buttons{
+    width: 187.5px;
+    height: 30px;
+    cursor: pointer;
+    background-color: peachpuff;
+    border-style: none;
+    border: 0.3px solid gray;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    width: fit-content;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: fit-content;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#numero{
+    margin-left: 5px;
+}
+
+label{
+    margin-left: 5px;
+}
